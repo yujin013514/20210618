@@ -17,7 +17,7 @@ function play(){
 function makeTable(){
     var cardTable = "";
     cardTable += "<table class='table'>";
-    for(var row=0; row<5; row++){
+    for(var row=0; row<3; row++){
         cardTable += "<tr>";
         var symbol = "";
         for(var col=0; col<10; col++){
